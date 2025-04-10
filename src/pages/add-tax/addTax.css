@@ -1,0 +1,109 @@
+.add-tax-container {
+  width: 60%;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.main-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.tax-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  width:100%
+}
+.tax-name {
+
+  width:50% !important
+}
+.tax-namee{
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px !important;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+ 
+}
+.tax-namee , ::placeholder{
+  padding-left: 10px;
+}
+
+.tax-name, .tax-percentage {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.percentage-symbol {
+  font-size: 16px;
+  position:absolute;
+  left: 60%;
+}
+
+.radio-group {
+  margin-bottom: 20px;
+}
+
+.radio-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.items-list {
+  border-top: 1px solid #eee;
+}
+
+.item {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.sub-items {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.sub-items label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="radio"]:checked {
+  accent-color: #F06D36;
+}
+.search-icons{
+  position: absolute;
+  width: 12px;
+  right: 98%;
+  top:35%
+}
+.search-div{
+  position: relative;
+}
+input[type="checkbox"]:checked {
+  accent-color: #327B91;
+}
